@@ -1,1 +1,23 @@
 je veux juste t'ajouter au depot github
+
+commande git
+1- creer fichier mkdir ...
+cd ....
+****Mise en place de git + liaison depot github
+echo "# HelloWord" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/catherine57/HelloWord.git
+git push -u origin master
+
+**** Mise a jour
+git add ...   mise a jour de git local
+git commit -m "mise a jour depot distant "
+git push   enoi vers branche master 
+
+**** creation branch dev
+git branch dev
+git checkout dev
+git merge master    			copie master
+git push --set-upstream origin dev
