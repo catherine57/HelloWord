@@ -21,3 +21,6 @@ git branch dev
 git checkout dev
 git merge master    			copie master
 git push --set-upstream origin dev
+
+*** faire de la branche dev la branche par defaut
+https://github.com/catherine57/HelloWord/settings/branches
