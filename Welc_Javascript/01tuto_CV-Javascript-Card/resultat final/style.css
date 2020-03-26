@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(60deg, rgba(250, 105, 0, 0.4) 2%, rgba(105, 210, 231, 0.7)), url("img/imageCapturer.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Bangers', cursive;
+}
+.container {
+  margin-top: 5%;
+  width: 80%;
+  max-width: 500px;
+}
+.jumbotron {
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+  opacity: 0.7;
+}
+.avatar {
+  width : 160px;
+  heigth: 160px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/******** listes *****************/
+h3 {
+  text-decoration: underline;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+/** Réseaux sociaux **************/
+.social .fa {
+  font-size: 50px;
+}
+.social .fa:hover {
+  opacity: 0.8;
+}
+.fa-facebook {
+  color: #3C5899;
+}
+.fa-twitter {
+  color: #55ACEE;
+}
+.fa-youtube {
+  color: #E32C28;
+}

@@ -1,0 +1,16 @@
+body {
+/**couleur degradé*/
+   background-image: linear-gradient(60deg, rgba(250, 105, 0, 0.4) 2%, rgba(105, 210, 231, 0.7));/* coulleur image en dégradé*/
+  background-attachment: fixed;
+}
+
+/** Centrage du conteneur du jumbotron */
+.container {
+  margin-top: 5%;
+  width: 80%;
+  max-width: 500px;
+}
+
+.jumbotron {
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);;
+}
